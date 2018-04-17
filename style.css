@@ -1,0 +1,30 @@
+div.border {
+  display: flex;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+div input {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0 5px 25px;
+  border: 0;
+  outline:none;
+}
+div.container_sign {
+  width: 25px;
+  display: flex;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+
+}
+button {
+  border: 0;
+  padding: 1px 5px 1px 0;
+  background-color:transparent;
+}
